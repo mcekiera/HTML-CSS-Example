@@ -1,0 +1,545 @@
+/* ==== SASS ==== */
+/* ====  CONTENT ==== */
+body {
+  font-family: "Open sans", sans-serif; }
+
+/* ==== NAVIGATION ==== */
+.navbar {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+  background-color: #313332;
+  margin-bottom: 0; }
+  .navbar .navbar-nav > li:hover {
+    background-color: #666666; }
+  .navbar .navbar-nav > .active > a {
+    background-color: transparent;
+    color: #00C7E8; }
+  .navbar .navbar-nav > .active > a:hover {
+    background-color: #666666;
+    color: #00C7E8; }
+  .navbar .navbar-nav li > a {
+    padding: 0 5px;
+    line-height: 70px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold; }
+
+/* ==== JUMBOTRON ==== */
+.jumbotron {
+  padding: 0; }
+
+/* ==== CAROUSEL ==== */
+.carousel-indicators li {
+  background-color: #cccccc; }
+.carousel-indicators li,
+.carousel-indicators .active {
+  border: none;
+  height: 20px;
+  margin: 20px 10px;
+  width: 20px; }
+
+.slogan {
+  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.5);
+  float: right;
+  height: 150px;
+  margin: 95px 0 130px 0;
+  padding-right: calc((100% - 1200px)/2);
+  position: absolute;
+  right: 0;
+  vertical-align: middle; }
+  .slogan div {
+    padding: 15px;
+    width: 360px; }
+  .slogan span {
+    display: block;
+    font-weight: bold; }
+  .slogan h1 {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: lighter;
+    line-height: 1.4;
+    margin: 0;
+    position: relative;
+    text-align: left;
+    text-transform: uppercase; }
+
+/* ==== FEATURES ==== */
+h5 {
+  -webkit-transition: all 0.7s;
+  -moz-transition: all 0.7s;
+  -o-transition: all 0.7s;
+  transition: all 0.7s;
+  font-size: 18px;
+  margin: 20px 0 10px 0;
+  text-transform: uppercase; }
+
+.features {
+  font-size: 40px;
+  width: 100%; }
+  .features i.fa {
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    border-radius: 15px;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -o-transition: all 0.7s;
+    transition: all 0.7s;
+    background-color: #313332;
+    color: #ffffff;
+    font-size: 60px;
+    height: 95px;
+    margin-top: 85px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    width: 95px; }
+  .features p {
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -o-transition: all 0.7s;
+    transition: all 0.7s;
+    color: #cccccc;
+    font-size: 15px;
+    margin: 0;
+    padding: 0 15px;
+    text-align: center; }
+  .features div {
+    text-align: center; }
+
+.feature:hover p {
+  color: #666666; }
+.feature:hover i.fa {
+  background-color: #00C7E8; }
+.feature:hover h5 {
+  color: #00C7E8; }
+
+/* ==== SEC-HEADER ==== */
+.sec-header {
+  text-align: center; }
+  .sec-header h2 {
+    color: #000;
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    margin: 100px 0 0 0;
+    padding: 0;
+    text-transform: uppercase; }
+  .sec-header p {
+    color: #cccccc;
+    margin: 20px 0 50px 0;
+    padding: 0 100px; }
+
+/* ==== GALLERY ==== */
+.gallery .row > div {
+  height: 240px;
+  position: relative;
+  overflow: hidden; }
+
+/* BLIND */
+.blind {
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 0;
+  position: relative;
+  text-align: center;
+  width: 100%; }
+  .blind i.fa {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    background-color: #ffffff;
+    color: #313332;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    top: -100px; }
+
+.gallery [class*="col-"] {
+  padding: 0; }
+
+.img-1:hover .blind, .img-2:hover .blind, .img-3:hover .blind, .img-4:hover .blind, .jum-1:hover .blind, .jum-2:hover .blind, .jum-3:hover .blind,
+.img-1:hover .blind,
+.img-2:hover .blind,
+.img-3:hover .blind,
+.img-4:hover .blind,
+.jum-1:hover .blind,
+.jum-2:hover .blind,
+.jum-3:hover .blind,
+.img-1:focus .blind,
+.img-2:focus .blind,
+.img-3:focus .blind,
+.img-4:focus .blind,
+.jum-1:focus .blind,
+.jum-2:focus .blind,
+.jum-3:focus .blind,
+.img-1:focus .blind,
+.img-2:focus .blind,
+.img-3:focus .blind,
+.img-4:focus .blind,
+.jum-1:focus .blind,
+.jum-2:focus .blind,
+.jum-3:focus .blind {
+  height: 240px; }
+.img-1:hover .blind i.fa, .img-2:hover .blind i.fa, .img-3:hover .blind i.fa, .img-4:hover .blind i.fa, .jum-1:hover .blind i.fa, .jum-2:hover .blind i.fa, .jum-3:hover .blind i.fa,
+.img-1:hover .blind i.fa,
+.img-2:hover .blind i.fa,
+.img-3:hover .blind i.fa,
+.img-4:hover .blind i.fa,
+.jum-1:hover .blind i.fa,
+.jum-2:hover .blind i.fa,
+.jum-3:hover .blind i.fa,
+.img-1:focus .blind i.fa,
+.img-2:focus .blind i.fa,
+.img-3:focus .blind i.fa,
+.img-4:focus .blind i.fa,
+.jum-1:focus .blind i.fa,
+.jum-2:focus .blind i.fa,
+.jum-3:focus .blind i.fa,
+.img-1:focus .blind i.fa,
+.img-2:focus .blind i.fa,
+.img-3:focus .blind i.fa,
+.img-4:focus .blind i.fa,
+.jum-1:focus .blind i.fa,
+.jum-2:focus .blind i.fa,
+.jum-3:focus .blind i.fa {
+  top: 100px; }
+
+/* ==== STAFF ==== */
+.staff .container {
+  padding: 100px; }
+
+.staff > .container > .row > div > p {
+  color: #313332;
+  font-size: 22px;
+  font-weight: bold; }
+
+.staff > .container > .row > div {
+  position: relative;
+  text-align: center; }
+
+.staff img,
+.staff > div > div > div:before {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  height: 195px;
+  width: 195px; }
+
+.staff > div > div > div:hover .job {
+  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  visibility: visible; }
+
+.job {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-transition: all 0.7s;
+  -moz-transition: all 0.7s;
+  -o-transition: all 0.7s;
+  transition: all 0.7s;
+  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: rgba(255, 255, 255, 0.1);
+  font-size: 22px;
+  font-weight: 600;
+  height: 195px;
+  left: 0;
+  line-height: 195px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  vertical-align: middle;
+  visibility: hidden;
+  width: 195px; }
+
+/* ==== PROMOTION ==== */
+.promotion {
+  background-color: #cccccc;
+  color: #ffffff;
+  height: 320px;
+  overflow: hidden; }
+  .promotion > div > div {
+    overflow: hidden; }
+  .promotion .container {
+    padding: 0 100px; }
+  .promotion h2 {
+    font-size: 36px;
+    font-family: "Raleway", sans-serif;
+    margin: 50px 0 0 0;
+    padding: 0;
+    text-transform: uppercase; }
+  .promotion .container .row div div,
+  .promotion h2 {
+    padding: 10px 20px; }
+
+/* ==== NUMBERS ==== */
+.numbers {
+  background-color: #ffffff;
+  color: #00C7E8;
+  min-height: 200px;
+  text-align: center;
+  text-transform: uppercase; }
+  .numbers p,
+  .numbers h2 {
+    font-family: "Raleway", sans-serif; }
+  .numbers p {
+    margin-top: 0; }
+  .numbers h2 {
+    color: #313332;
+    font-size: 60px;
+    margin-bottom: 0;
+    padding: 0;
+    text-transform: uppercase; }
+
+.mobile {
+  max-width: 600px; }
+
+/* ==== FOOTER ==== */
+footer {
+  background-color: #666666;
+  color: #ffffff;
+  min-height: 220px; }
+  footer.container-fluid {
+    padding-right: 0;
+    padding-left: 0; }
+  footer .container {
+    padding: 0 100px; }
+  footer h3 {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase; }
+  footer p {
+    margin: 0; }
+  footer i.fa {
+    background-color: #00C7E8;
+    color: #ffffff;
+    cursor: pointer;
+    padding-top: 6px;
+    text-align: center; }
+  footer .container > div {
+    margin-bottom: 50px;
+    padding-right: 20px; }
+  footer > div:last-child {
+    background-color: #313332;
+    line-height: 50px;
+    text-align: center; }
+
+td {
+  padding-right: 20px;
+  vertical-align: top; }
+  td:first-child {
+    font-weight: bold; }
+
+/* ==== MEDIA ==== */
+@media (min-width: 991px) {
+  .col-dec-1 {
+    width: 10%;
+    position: relative; }
+
+  .col-dec-2 {
+    width: 20%;
+    position: relative; }
+
+  .col-dec-3 {
+    width: 30%;
+    position: relative; }
+
+  .col-dec-4 {
+    width: 40%;
+    position: relative; }
+
+  .col-dec-5 {
+    width: 50%;
+    position: relative; }
+
+  .col-dec-6 {
+    width: 60%;
+    position: relative; }
+
+  .col-dec-7 {
+    width: 70%;
+    position: relative; }
+
+  .col-dec-8 {
+    width: 80%;
+    position: relative; }
+
+  .col-dec-9 {
+    width: 90%;
+    position: relative; }
+
+  .col-dec-10 {
+    width: 100%;
+    position: relative; }
+
+  .col-md-offset-1-5 {
+    margin-left: 12.5%; }
+
+  footer i.fa {
+    width: 30px;
+    height: 30px; }
+
+  .blind i.fa {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    line-height: 30px; }
+
+  .navbar li {
+    width: 100px; }
+
+  .navbar-brand {
+    height: 50px;
+    padding: 10px; }
+
+  [class*='col-'] {
+    padding: 0; } }
+@media (max-width: 991px) {
+  .container-fluid {
+    margin: 0;
+    padding: 0; }
+
+  .complex > div {
+    position: relative; }
+
+  .mobile {
+    position: absolute;
+    max-width: 500px; }
+
+  .promotion {
+    height: 80%; }
+    .promotion .container {
+      padding: 0; }
+    .promotion h2 {
+      text-align: center; }
+
+  header {
+    min-height: 70px;
+    height: 100%; }
+
+  footer {
+    text-align: center; }
+    footer td {
+      width: 50%; }
+    footer table {
+      width: 100%; }
+    footer i.fa {
+      width: 50px;
+      height: 50px;
+      margin: 2px 0;
+      font-size: 32px; }
+
+  .gallery i.fa {
+    width: 80px;
+    height: 80px;
+    font-size: 46px;
+    line-height: 80px;
+    margin: 0 5% 10% 5%; }
+
+  .slogan {
+    width: 300px; }
+
+  .navbar-inverse .navbar-nav {
+    float: none;
+    display: block;
+    min-height: 200px; }
+    .navbar-inverse .navbar-nav > li {
+      display: block;
+      width: 100%;
+      height: 100px; }
+      .navbar-inverse .navbar-nav > li a {
+        font-size: 46px;
+        line-height: 100px; }
+
+  .navbar-right {
+    display: block;
+    width: 100%;
+    margin: 0; }
+
+  .navbar-brand,
+  .navbar-header {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    float: none;
+    height: 100px;
+    margin: 0; }
+
+  .navbar-header {
+    width: 100%; }
+    .navbar-header .navbar-brand {
+      width: 80%; }
+      .navbar-header .navbar-brand img {
+        width: 100%;
+        height: 100%; }
+
+  .navbar-toggle {
+    color: #fff;
+    text-align: center;
+    width: 20%;
+    font-size: 80px;
+    line-height: 100%;
+    margin: 0;
+    display: block; }
+
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1); }
+    .navbar-collapse.collapse {
+      display: none !important; }
+
+  .collapse.in {
+    display: block !important; } }
+/* ==== IMAGES ==== */
+.img-1, .img-2, .img-3, .img-4, .jum-1, .jum-2, .jum-3 {
+  background-position: center;
+  background-size: cover; }
+
+.img-1 {
+  background-image: url("https://static.pexels.com/photos/117400/pexels-photo-117400.jpeg"); }
+
+.img-2 {
+  background-image: url("https://static.pexels.com/photos/129893/pexels-photo-129893.jpeg"); }
+
+.img-3 {
+  background-image: url("https://static.pexels.com/photos/102345/pexels-photo-102345.jpeg"); }
+
+.img-4 {
+  background-image: url("https://static.pexels.com/photos/136789/pexels-photo-136789.jpeg"); }
+
+.jum-1, .jum-2, .jum-3 {
+  height: 375px;
+  position: relative; }
+
+.jum-1 {
+  background-image: url("https://hd.unsplash.com/1/macbook-air-all-faded-and-stuff.jpg"); }
+
+.jum-2 {
+  background-image: url("https://static.pexels.com/photos/35550/ipad-tablet-technology-touch.jpg"); }
+
+.jum-3 {
+  background-image: url("https://static.pexels.com/photos/113850/pexels-photo-113850.jpeg"); }
+
+/*# sourceMappingURL=custom.css.map */
